@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-image: url('images/back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero{
+    width: 40%;
+    height: 60vh;
+    margin-left: 32%;
+    margin-top: 6%;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.437);
+    backdrop-filter: blur(5px);
+    font-size: 1vw;
+    border-radius: 25px;
+}
+.hero h2{
+    font-size: 1.7vw;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.hero p{
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+span{
+    font-size: 0.8vw;
+}
+.hero button{
+    width: 30%;
+    text-decoration: none;
+    border-radius: 40px;
+    border: none;
+    background-color: #fff;
+    font-size: 1vw;
+}
+.hero input{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: #ffffff00;
+    font-size: 1.1vw;
+}
+.hero button:hover{
+    box-shadow: 3px 3px 8px #ffffff;
+}
+.results{
+    font-weight: bold;
+    font-size: 1.3vw;
+    padding-top: 3%;
+}
